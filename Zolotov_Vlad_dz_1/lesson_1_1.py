@@ -1,10 +1,9 @@
-a = input('Введите значение:', )
+a = input('Введите значение: ', )
 
 sec = int(a) % 60
 min = int(a) // 60
 hour = int()
 day = int()
-
 
 while min // 60:
     if min >= 60:
